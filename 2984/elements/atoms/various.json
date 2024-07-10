@@ -1,0 +1,94 @@
+{
+  "shadows": {
+    "focus-ring": {
+      "value": {
+        "x": "{sizing.size-0}",
+        "y": "{sizing.size-0}",
+        "blur": "{sizing.size-0}",
+        "spread": "{sizing.size-50}",
+        "color": "{background.interactive.focus}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "elevation": {
+      "soft": {
+        "value": {
+          "x": "{sizing.size-0}",
+          "y": "{sizing.size-25}",
+          "blur": "{sizing.size-50}",
+          "spread": "{sizing.size-0}",
+          "color": "{shadow.soft}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "moderate": {
+        "value": {
+          "x": "{sizing.size-0}",
+          "y": "1",
+          "blur": "{sizing.size-50}",
+          "spread": "{sizing.size-0}",
+          "color": "{shadow.moderate}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "strong": {
+        "value": {
+          "x": "{sizing.size-0}",
+          "y": "1",
+          "blur": "1",
+          "spread": "{sizing.size-0}",
+          "color": "{shadow.strong}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "faint": {
+        "value": {
+          "x": "{sizing.size-25}",
+          "y": "{sizing.size-25}",
+          "blur": "{sizing.size-125}",
+          "spread": "{sizing.size-0}",
+          "color": "{shadow.faint}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "intense": {
+        "value": {
+          "x": "{sizing.size-0}",
+          "y": "{sizing.size-25}",
+          "blur": "{sizing.size-0}",
+          "spread": "{sizing.size-0}",
+          "color": "{shadow.intense}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    }
+  },
+  "icons": {
+    "sm": {
+      "value": "{sizing.size-200}",
+      "type": "sizing"
+    },
+    "md": {
+      "value": "{sizing.size-300}",
+      "type": "sizing"
+    },
+    "lg": {
+      "value": "{sizing.size-400}",
+      "type": "sizing"
+    },
+    "xl": {
+      "value": "{sizing.size-600}",
+      "type": "sizing"
+    },
+    "xs": {
+      "value": "{sizing.size-150}",
+      "type": "sizing"
+    }
+  }
+}

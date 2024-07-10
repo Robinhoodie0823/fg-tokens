@@ -1,0 +1,104 @@
+{
+  "base-size": {
+    "value": "8",
+    "type": "number"
+  },
+  "base": {
+    "base-0": {
+      "value": "0",
+      "type": "number"
+    },
+    "base-25": {
+      "value": "{base-size} *0.25",
+      "type": "number"
+    },
+    "base-50": {
+      "value": "{base-size} *.5",
+      "type": "number"
+    },
+    "base-100": {
+      "value": "{base-size}",
+      "type": "number"
+    },
+    "base-125": {
+      "value": "{base-size} *1.25",
+      "type": "number"
+    },
+    "base-150": {
+      "value": "{base.base-100} *1.5",
+      "type": "number"
+    },
+    "base-187": {
+      "value": "{base-size} *1.875",
+      "type": "number"
+    },
+    "base-200": {
+      "value": "{base-size} *2",
+      "type": "number"
+    },
+    "base-250": {
+      "value": "{base-size} *2.5",
+      "type": "number"
+    },
+    "base-300": {
+      "value": "{base-size} *3",
+      "type": "number"
+    },
+    "base-350": {
+      "value": "{base-size} *3.5",
+      "type": "number"
+    },
+    "base-400": {
+      "value": "{base-size} *4",
+      "type": "number"
+    },
+    "base-450": {
+      "value": "{base-size} *4.5",
+      "type": "number"
+    },
+    "base-500": {
+      "value": "{base-size} *5",
+      "type": "number"
+    },
+    "base-550": {
+      "value": "{base-size} *5.5",
+      "type": "number"
+    },
+    "base-600": {
+      "value": "{base-size} *6",
+      "type": "number"
+    },
+    "base-650": {
+      "value": "{base-size} *6.5",
+      "type": "number"
+    },
+    "base-700": {
+      "value": "{base-size} *7",
+      "type": "number"
+    },
+    "base-800": {
+      "value": "{base-size} *8",
+      "type": "number"
+    },
+    "base-1200": {
+      "value": "{base-size} *12",
+      "type": "number"
+    },
+    "base-1600": {
+      "value": "{base-size} *16",
+      "type": "number"
+    },
+    "base-3200": {
+      "value": "{base-size} *32",
+      "type": "number"
+    },
+    "base-6400": {
+      "value": "{base-size} *64",
+      "type": "number"
+    }
+  },
+  "font-base-size": {
+    "value": "8px",
+    "type": "fontSizes"
+  }
+}

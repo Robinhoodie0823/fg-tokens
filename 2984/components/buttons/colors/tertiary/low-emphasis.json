@@ -1,0 +1,94 @@
+{
+  "button": {
+    "background": {
+      "default": {
+        "value": "{background.interactive.tertiary.idle.low-emphasis}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{background.interactive.tertiary.hover.low-emphasis}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{background.interactive.tertiary.pressed.low-emphasis}",
+        "type": "color"
+      },
+      "focused": {
+        "value": "{background.interactive.tertiary.idle.low-emphasis}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{background.interactive.tertiary.disabled.low-emphasis}",
+        "type": "color"
+      }
+    },
+    "text": {
+      "default": {
+        "value": "{text.interactive.tertiary.idle.default}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{text.interactive.tertiary.hover.default}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{text.interactive.tertiary.pressed.default}",
+        "type": "color"
+      },
+      "focused": {
+        "value": "{text.interactive.tertiary.idle.default}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{text.interactive.tertiary.disabled.default}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{border.interactive.tertiary.idle.low-emphasis}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{border.interactive.tertiary.hover.low-emphasis}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{border.interactive.tertiary.pressed.low-emphasis}",
+        "type": "color"
+      },
+      "focused": {
+        "value": "{border.interactive.tertiary.idle.low-emphasis}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{border.interactive.tertiary.disabled.low-emphasis}",
+        "type": "color"
+      },
+      "width": {
+        "value": "1",
+        "type": "borderWidth"
+      }
+    }
+  },
+  "xl": {
+    "value": "{buttons.large.low-emphasis}",
+    "type": "typography"
+  },
+  "lg": {
+    "value": "{buttons.medium.low-emphasis}",
+    "type": "typography"
+  },
+  "md": {
+    "value": "{buttons.medium.low-emphasis}",
+    "type": "typography"
+  },
+  "sm": {
+    "value": "{buttons.small.low-emphasis}",
+    "type": "typography"
+  },
+  "xs": {
+    "value": "{buttons.small.low-emphasis}",
+    "type": "typography"
+  }
+}

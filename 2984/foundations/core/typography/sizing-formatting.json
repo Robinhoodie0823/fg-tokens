@@ -1,0 +1,106 @@
+{
+  "line-height": {
+    "100": {
+      "value": "100%",
+      "type": "lineHeights",
+      "description": "When the line height as to be the same as the font size. Perfect for buttons and really large titles"
+    },
+    "120": {
+      "value": "120%",
+      "type": "lineHeights",
+      "description": "Should be used only on Headlines. Smallest height"
+    },
+    "125": {
+      "value": "125%",
+      "type": "lineHeights",
+      "description": "Can be used for Headlines. Smallest height that should be used for paragraphs"
+    },
+    "150": {
+      "value": "150%",
+      "type": "lineHeights",
+      "description": "Standard value, for accessibility purpose. \nShould be always used in paragraphs."
+    },
+    "auto": {
+      "value": "auto",
+      "type": "lineHeights",
+      "description": "Not suggested to be used. Automatically set by the software"
+    }
+  },
+  "font": {
+    "size-125": {
+      "value": "{font-base-size}*1.25",
+      "type": "fontSizes",
+      "description": "To be used only when the info is something important for showing but not really important to the users e.g. payment level"
+    },
+    "size-150": {
+      "value": "{font-base-size} *1.5",
+      "type": "fontSizes"
+    },
+    "size-175": {
+      "value": "{font-base-size} *1.75",
+      "type": "fontSizes"
+    },
+    "size-187": {
+      "value": "{font-base-size} *1.875",
+      "type": "fontSizes"
+    },
+    "size-200": {
+      "value": "{font-base-size} *2",
+      "type": "fontSizes"
+    },
+    "size-225": {
+      "value": "{font-base-size} *2.25",
+      "type": "fontSizes"
+    },
+    "size-250": {
+      "value": "{font-base-size} *2.5",
+      "type": "fontSizes"
+    },
+    "size-300": {
+      "value": "{font-base-size} *3",
+      "type": "fontSizes"
+    },
+    "size-400": {
+      "value": "{font-base-size} *4",
+      "type": "fontSizes"
+    },
+    "size-500": {
+      "value": "{font-base-size} *5",
+      "type": "fontSizes"
+    },
+    "size-600": {
+      "value": "{font-base-size} *6",
+      "type": "fontSizes"
+    }
+  },
+  "letter-spacing": {
+    "wide": {
+      "value": "2px",
+      "type": "letterSpacing"
+    },
+    "loose": {
+      "value": ".5px",
+      "type": "letterSpacing"
+    },
+    "comfort": {
+      "value": ".25px",
+      "type": "letterSpacing"
+    },
+    "narrow": {
+      "value": "1.5px*-1",
+      "type": "letterSpacing"
+    }
+  },
+  "uppercase": {
+    "value": "uppercase",
+    "type": "textCase"
+  },
+  "lowercase": {
+    "value": "lowercase",
+    "type": "textCase"
+  },
+  "underline": {
+    "value": "underline",
+    "type": "textDecoration"
+  }
+}

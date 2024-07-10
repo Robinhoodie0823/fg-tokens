@@ -1,0 +1,37 @@
+{
+  "font-family": {
+    "value": "SF Pro",
+    "type": "fontFamilies",
+    "description": "iOS font family"
+  },
+  "regular": {
+    "default": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "italic": {
+      "value": "{regular.default} Italic",
+      "type": "fontWeights"
+    }
+  },
+  "medium": {
+    "default": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
+    "italic": {
+      "value": "Medium Italic",
+      "type": "fontWeights"
+    }
+  },
+  "bold": {
+    "default": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "italic": {
+      "value": "{bold.default} Italic",
+      "type": "fontWeights"
+    }
+  }
+}

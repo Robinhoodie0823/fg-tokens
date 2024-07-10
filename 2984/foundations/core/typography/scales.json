@@ -1,0 +1,311 @@
+{
+  "headlines": {
+    "big": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{medium.default}",
+        "fontSize": "{font.size-600}",
+        "lineHeight": "{line-height.120}"
+      },
+      "type": "typography",
+      "description": "Titolo \"hero-style\" per landing pages o sito corporate. Utilizza headline-large su viewports ridotte."
+    },
+    "large": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{bold.default}",
+        "fontSize": "{font.size-500}",
+        "lineHeight": "{line-height.120}"
+      },
+      "type": "typography",
+      "description": "Titolo di pagina principale oppure di una sezione in evidenza. Utilizza headline-medium su viewports ridotte."
+    },
+    "medium": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{medium.default}",
+        "lineHeight": "{line-height.125}",
+        "fontSize": "{font.size-400}"
+      },
+      "type": "typography",
+      "description": "Titolo di una sezione secondaria in una pagina."
+    },
+    "base": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{medium.default}",
+        "lineHeight": "{line-height.150}",
+        "fontSize": "{font.size-300}"
+      },
+      "type": "typography",
+      "description": "Titolo di default utilizzato nella pagina di dettaglio di una proprietà. Se combinato con \"headline-big\" e \"headline-large\" può fungere da sottotitolo."
+    },
+    "small": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{medium.default}",
+        "lineHeight": "{line-height.150}",
+        "fontSize": "{font.size-250}"
+      },
+      "type": "typography",
+      "description": "Titolo di una scheda (box) presente nella pagina di dettaglio di una proprietà."
+    },
+    "small-bold": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{bold.default}",
+        "lineHeight": "{line-height.150}",
+        "fontSize": "{font.size-250}"
+      },
+      "type": "typography",
+      "description": "Usato per evidenziare gerarchicamente in pagina elmenti molto importanti per l'utente, ad esempio prezzo in card"
+    },
+    "xsmall": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{bold.default}",
+        "lineHeight": "{line-height.auto}",
+        "fontSize": "{font.size-200}"
+      },
+      "type": "typography",
+      "description": "Small headline, without 1.5x line height"
+    }
+  },
+  "body": {
+    "base": {
+      "normal": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{regular.default}",
+          "lineHeight": "{line-height.150}",
+          "fontSize": "{font.size-200}"
+        },
+        "type": "typography",
+        "description": "Corpo del testo di default, raccomandato per paragrafi e descrizioni di media/grande lunghezza."
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{bold.default}",
+          "lineHeight": "{line-height.150}",
+          "fontSize": "{font.size-200}"
+        },
+        "type": "typography",
+        "description": "lunghezza. Variante bold"
+      },
+      "medium": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{medium.default}",
+          "lineHeight": "{line-height.150}",
+          "fontSize": "{font.size-200}"
+        },
+        "type": "typography",
+        "description": "lunghezza. Variante medium"
+      }
+    },
+    "base-alt": {
+      "normal": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{regular.default}",
+          "lineHeight": "{line-height.150}",
+          "fontSize": "{font.size-187}"
+        },
+        "type": "typography",
+        "description": "Corpo del testo da usare solo nel caso in cui il contrasto tra body-small e body-base non possa funzionare. Variante normal"
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{bold.default}",
+          "lineHeight": "{line-height.150}",
+          "fontSize": "{font.size-187}"
+        },
+        "type": "typography",
+        "description": "Corpo del testo da usare solo nel caso in cui il contrasto tra body-small e body-base non possa funzionare. Variante bold"
+      },
+      "medium": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{medium.default}",
+          "lineHeight": "{line-height.150}",
+          "fontSize": "{font.size-187}"
+        },
+        "type": "typography",
+        "description": "Corpo del testo da usare solo nel caso in cui il contrasto tra body-small e body-base non possa funzionare. Variante medium"
+      }
+    },
+    "small": {
+      "normal": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{regular.default}",
+          "lineHeight": "{line-height.150}",
+          "fontSize": "{font.size-175}"
+        },
+        "type": "typography",
+        "description": "Corpo di testo piccolo per applicazioni dell'interfaccia utente discrete, come helper, testo delle note a piè di pagina. Dovrebbe essere usato con parsimonia tra le pagine."
+      },
+      "medium": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{medium.default}",
+          "lineHeight": "{line-height.150}",
+          "fontSize": "{font.size-175}"
+        },
+        "type": "typography",
+        "description": "Corpo di testo piccolo per applicazioni dell'interfaccia utente discrete, come helper, testo delle note a piè di pagina. Dovrebbe essere usato con parsimonia tra le pagine. Variante medium"
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{bold.default}",
+          "lineHeight": "{line-height.150}",
+          "fontSize": "{font.size-175}"
+        },
+        "type": "typography",
+        "description": "Corpo di testo piccolo per applicazioni dell'interfaccia utente discrete, come helper, testo delle note a piè di pagina. Dovrebbe essere usato con parsimonia tra le pagine. Variante grassetto"
+      }
+    }
+  },
+  "caption": {
+    "regular": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{regular.default}",
+        "lineHeight": "{line-height.150}",
+        "fontSize": "{font.size-150}"
+      },
+      "type": "typography",
+      "description": "Testi brevi e compatti per informazioni di supporto."
+    },
+    "italic": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{regular.italic}",
+        "lineHeight": "{line-height.150}",
+        "fontSize": "{font.size-150}"
+      },
+      "type": "typography",
+      "description": "Variante italic di testi brevi e compatti per informazioni di supporto."
+    },
+    "bold": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{bold.default}",
+        "lineHeight": "{line-height.150}",
+        "fontSize": "{font.size-150}"
+      },
+      "type": "typography",
+      "description": "Variante bold della caption"
+    }
+  },
+  "overline": {
+    "default": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{regular.default}",
+        "lineHeight": "{line-height.150}",
+        "fontSize": "{font.size-175}",
+        "letterSpacing": "{letter-spacing.loose}",
+        "textCase": "{uppercase}"
+      },
+      "type": "typography",
+      "description": "Testo in maiuscolo da utilizzare per titoli composti da due parole (max)."
+    },
+    "small": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{regular.default}",
+        "lineHeight": "{line-height.150}",
+        "fontSize": "{font.size-125}",
+        "letterSpacing": "{letter-spacing.loose}"
+      },
+      "type": "typography",
+      "description": "Testo in maiuscolo da usare solamente quando è necessario che l'informazione sia presente ma è di importanza solo per business e non per gli utenti."
+    }
+  },
+  "textfield": {
+    "label": {
+      "inside": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{regular.default}",
+          "lineHeight": "{line-height.100}",
+          "fontSize": "{font.size-150}"
+        },
+        "type": "typography",
+        "description": "Per la label del textfield con label inside"
+      }
+    }
+  },
+  "buttons": {
+    "large": {
+      "low-emphasis": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{medium.default}",
+          "lineHeight": "{line-height.100}",
+          "fontSize": "{font.size-250}"
+        },
+        "type": "typography",
+        "description": "Dimensione del testo per pulsanti con dimensione XL."
+      },
+      "high-emphasis": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{bold.default}",
+          "lineHeight": "{line-height.100}",
+          "fontSize": "{font.size-250}"
+        },
+        "type": "typography",
+        "description": "Dimensione del testo per bottoni XL. Variante bold"
+      }
+    },
+    "medium": {
+      "low-emphasis": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{medium.default}",
+          "lineHeight": "{line-height.100}",
+          "fontSize": "{font.size-200}"
+        },
+        "type": "typography",
+        "description": "Dimensione del testo per pulsanti con dimensioni SM, MD, LG."
+      },
+      "high-emphasis": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{bold.default}",
+          "lineHeight": "{line-height.100}",
+          "fontSize": "{font.size-200}"
+        },
+        "type": "typography",
+        "description": "Dimensione del testo per pulsanti con dimensioni SM, MD, LG. Variante bold"
+      }
+    },
+    "small": {
+      "low-emphasis": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{medium.default}",
+          "lineHeight": "{line-height.100}",
+          "fontSize": "{font.size-175}"
+        },
+        "type": "typography",
+        "description": "Dimensione del testo per pulsanti con dimensioni XS."
+      },
+      "high-emphasis": {
+        "value": {
+          "fontFamily": "{font-family}",
+          "fontWeight": "{bold.default}",
+          "lineHeight": "{line-height.100}",
+          "fontSize": "{font.size-175}"
+        },
+        "type": "typography",
+        "description": "Dimensione del testo per pulsanti con dimensioni XS."
+      }
+    }
+  }
+}

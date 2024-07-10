@@ -1,0 +1,26 @@
+{
+  "tokenSetOrder": [
+    "foundations/core/colors/original",
+    "foundations/core/colors/colors",
+    "foundations/core/size/base",
+    "foundations/core/size/sizing-spacing-radius",
+    "foundations/core/typography/environment-specific/web",
+    "foundations/core/typography/environment-specific/android",
+    "foundations/core/typography/environment-specific/iOS",
+    "foundations/core/typography/sizing-formatting",
+    "foundations/core/typography/scales",
+    "foundations/themes/light",
+    "foundations/themes/dark",
+    "elements/atoms/various",
+    "elements/components",
+    "components/buttons/colors/tertiary/high-emphasis",
+    "components/buttons/colors/tertiary/low-emphasis",
+    "components/buttons/colors/primary",
+    "components/buttons/colors/secondary",
+    "components/buttons/colors/ghost",
+    "components/buttons/sizing/square",
+    "components/buttons/sizing/pill",
+    "components/buttons/sizing/ghost",
+    "components/buttons/sizing/icon"
+  ]
+}

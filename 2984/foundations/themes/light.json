@@ -1,0 +1,603 @@
+{
+  "text": {
+    "interactive": {
+      "tertiary": {
+        "idle": {
+          "default": {
+            "value": "{colors.accent.70}",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{colors.accent.00}",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "default": {
+            "value": "{colors.accent.100}",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{colors.accent.00}",
+            "type": "color"
+          }
+        },
+        "pressed": {
+          "default": {
+            "value": "{colors.accent.100}",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{colors.accent.30}",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "default": {
+            "value": "{colors.accent.60}",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{colors.accent.40}",
+            "type": "color"
+          }
+        }
+      },
+      "primary": {
+        "idle": {
+          "default": {
+            "value": "{colors.brand.60}",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{colors.mono.00}",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "default": {
+            "value": "{colors.brand.80}",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{colors.mono.00}",
+            "type": "color"
+          }
+        },
+        "pressed": {
+          "default": {
+            "value": "{colors.brand.40}",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{colors.mono.00}",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "default": {
+            "value": "{colors.brand.30}",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{colors.mono.00}",
+            "type": "color"
+          }
+        }
+      },
+      "secondary": {
+        "idle": {
+          "default": {
+            "value": "{colors.accent.80}",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{colors.accent.00}",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "default": {
+            "value": "{colors.accent.90}",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{colors.accent.00}",
+            "type": "color"
+          }
+        },
+        "pressed": {
+          "default": {
+            "value": "{colors.accent.70}",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{colors.accent.00}",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "default": {
+            "value": "{colors.accent.40}",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{colors.accent.60}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "no-interactive": {
+      "primary": {
+        "value": "{colors.mono.100}",
+        "type": "color",
+        "description": "Testo statico di primo livello, gerarchicamente superiore a tutti (titoli, paragrafo, testo). Da applicare esclusivamente ad elementi non interattivi"
+      },
+      "secondary": {
+        "value": "{colors.mono.70}",
+        "type": "color",
+        "description": "Testo statico di secondo livello, gerarchicamente inferiore al primo livello (maggiori info). Da applicare esclusivamente ad elementi non interattivi"
+      },
+      "tertiary": {
+        "value": "{colors.mono.40}",
+        "type": "color",
+        "description": "Testo statico di terzo livello, gerarchicamente inferiore al secondo. Da applicare esclusivamente ad elementi non interattivi (es. placeholder di testo)"
+      },
+      "danger": {
+        "default": {
+          "value": "{colors.warning.70}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{colors.mono.00}",
+          "type": "color",
+          "description": "Testo che viene inserito sopra il colore di danger"
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{colors.positive.high-emphasis.90}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{colors.mono.00}",
+          "type": "color"
+        }
+      },
+      "inverse": {
+        "value": "{colors.mono.00}",
+        "type": "color"
+      },
+      "warning": {
+        "default": {
+          "value": "{colors.warning.60}",
+          "type": "color",
+          "description": "Testi che devono richiamare l'attenzione, non soltanto in senso negativo, ma anche in senso di obbligatorio (es. informazione obbligatoria textfield)"
+        },
+        "inverse": {
+          "value": "{colors.warning.90}",
+          "type": "color",
+          "description": "Testo che viene inserito sopra il colore di warning"
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{colors.warning.70}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{text.no-interactive.warning.inverse}",
+          "type": "color"
+        }
+      },
+      "accent": {
+        "value": "{colors.brand.60}",
+        "type": "color"
+      }
+    }
+  },
+  "background": {
+    "no-interactive": {
+      "primary": {
+        "value": "{colors.mono.00}",
+        "type": "color",
+        "description": "Elementi principali della pagina. Possono essere multipli elementi, oppure uno solo."
+      },
+      "secondary": {
+        "value": "{colors.mono.30}",
+        "type": "color",
+        "description": "Background base degli elementi (es. pagine e modali)"
+      },
+      "accent": {
+        "value": "{colors.accent.80}",
+        "type": "color",
+        "description": "Background di elemento che si vuole mettere in evidenza contro nel idleo della pagina (es. striscia HP casa in vendita)"
+      },
+      "brand": {
+        "value": "{colors.brand.60}",
+        "type": "color",
+        "description": "Colore di background del brand base"
+      },
+      "warning": {
+        "value": "{colors.warning.20}",
+        "type": "color",
+        "description": "Background per elementi non interattivi di messaggio di warning"
+      },
+      "danger": {
+        "value": "{text.no-interactive.danger.default}",
+        "type": "color",
+        "description": "Background per elementi non interattivi di errore"
+      },
+      "success": {
+        "high-emphasis": {
+          "value": "{text.no-interactive.success.default}",
+          "type": "color",
+          "description": "Background di elementi molto positivi che si vogliono mettere in evidenza in modo particolare"
+        },
+        "low-emphasis": {
+          "value": "{colors.positive.high-emphasis.10}",
+          "type": "color",
+          "description": "Background di messaggio di successo, tendenzialmente dispositivi"
+        }
+      },
+      "opaque": {
+        "high-empasis": {
+          "value": "{colors.mono.100}",
+          "type": "color",
+          "description": "Colore di opacità di elementi da mettere nel bg per mettere molto in evidenza l'elemento soprastante (es. messaggi popup)",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".8",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "mid-emphasis": {
+          "value": "{colors.accent.100}",
+          "type": "color",
+          "description": "Colore di background per mettere mediamente in evidenza degli elementi",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".5",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "low-emphasis": {
+          "value": "{colors.accent.100}",
+          "type": "color",
+          "description": "Colore di background che serve per mettere un po' di più in evidenza alcuni elementi",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.25",
+                "space": "lch"
+              }
+            }
+          }
+        }
+      },
+      "transparent": {
+        "value": "{colors.misc.transparent}",
+        "type": "color"
+      }
+    },
+    "interactive": {
+      "tertiary": {
+        "idle": {
+          "low-emphasis": {
+            "value": "{colors.mono.00}",
+            "type": "color"
+          },
+          "high-emphasis": {
+            "value": "{colors.mono.00}",
+            "type": "color"
+          },
+          "transparent": {
+            "value": "{colors.misc.transparent}",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "low-emphasis": {
+            "value": "{colors.mono.20}",
+            "type": "color"
+          },
+          "high-emphasis": {
+            "value": "{colors.mono.20}",
+            "type": "color"
+          },
+          "transparent": {
+            "value": "{colors.misc.transparent}",
+            "type": "color"
+          }
+        },
+        "pressed": {
+          "low-emphasis": {
+            "value": "{colors.mono.50}",
+            "type": "color"
+          },
+          "high-emphasis": {
+            "value": "{colors.mono.50}",
+            "type": "color"
+          },
+          "transparent": {
+            "value": "{colors.accent.40}",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "low-emphasis": {
+            "value": "{colors.mono.40}",
+            "type": "color"
+          },
+          "high-emphasis": {
+            "value": "{colors.mono.40}",
+            "type": "color"
+          },
+          "transparent": {
+            "value": "{colors.misc.transparent}",
+            "type": "color"
+          }
+        },
+        "active": {
+          "low-emphasis": {
+            "value": "{colors.mono.20}",
+            "type": "color"
+          },
+          "high-emphasis": {
+            "value": "{colors.mono.20}",
+            "type": "color"
+          },
+          "transparent": {
+            "value": "{colors.misc.transparent}",
+            "type": "color"
+          }
+        }
+      },
+      "primary": {
+        "idle": {
+          "value": "{colors.brand.60}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.brand.80}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{colors.brand.40}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{colors.brand.30}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "idle": {
+          "value": "{colors.accent.80}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.accent.90}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{colors.accent.70}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{colors.accent.40}",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "value": "{colors.focus.60}",
+        "type": "color",
+        "description": "Colore di background degli elementi di focus (es. focus ring)\n",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.25",
+              "space": "lch"
+            }
+          }
+        }
+      }
+    },
+    "gradient": {
+      "angular": {
+        "value": "conic-gradient(from 90deg at 50% 50%, {colors.accent.00} 0deg, {colors.accent.60} 360deg);",
+        "type": "color",
+        "description": "Angular gradient per il loading spinner"
+      }
+    }
+  },
+  "border": {
+    "no-interactive": {
+      "primary": {
+        "value": "{colors.accent.100}",
+        "type": "color",
+        "description": "Bordi relativi ad elementi più evidenti"
+      },
+      "secondary": {
+        "value": "{colors.accent.50}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{colors.accent.20}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{colors.warning.80}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{colors.warning.80}",
+        "type": "color"
+      },
+      "success": {
+        "value": "{text.no-interactive.success.default}",
+        "type": "color"
+      }
+    },
+    "interactive": {
+      "tertiary": {
+        "idle": {
+          "low-emphasis": {
+            "value": "{colors.accent.40}",
+            "type": "color"
+          },
+          "high-emphasis": {
+            "value": "{colors.accent.100}",
+            "type": "color",
+            "description": "Colore di bordo da usare sugli elementi che vogliamo mettere in high emphasis interattivi (es. bottone terziario con alta enfasi)"
+          }
+        },
+        "hover": {
+          "low-emphasis": {
+            "value": "{colors.accent.100}",
+            "type": "color"
+          },
+          "high-emphasis": {
+            "value": "{border.interactive.tertiary.hover.low-emphasis}",
+            "type": "color"
+          }
+        },
+        "pressed": {
+          "low-emphasis": {
+            "value": "{border.interactive.tertiary.hover.low-emphasis}",
+            "type": "color"
+          },
+          "high-emphasis": {
+            "value": "{border.interactive.tertiary.pressed.low-emphasis}",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "low-emphasis": {
+            "value": "{colors.accent.40}",
+            "type": "color"
+          },
+          "high-emphasis": {
+            "value": "{border.interactive.tertiary.disabled.low-emphasis}",
+            "type": "color"
+          }
+        },
+        "active": {
+          "low-emphasis": {
+            "value": "{colors.accent.90}",
+            "type": "color"
+          },
+          "high-emphasis": {
+            "value": "{border.interactive.tertiary.active.low-emphasis}",
+            "type": "color"
+          }
+        },
+        "focus": {
+          "value": "{colors.focus.60}",
+          "type": "color",
+          "description": "Colore del bordo in fase di focus di qualunque elemento che abbia il bordo colorato quando è focus (es. textfield)"
+        }
+      },
+      "primary": {
+        "idle": {
+          "value": "{colors.brand.60}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.brand.80}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{colors.brand.40}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{colors.brand.30}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "shadow": {
+    "faint": {
+      "value": "{shadow.base}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "alpha",
+            "value": ".3",
+            "space": "lch"
+          }
+        }
+      }
+    },
+    "soft": {
+      "value": "{shadow.base}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "alpha",
+            "value": ".4",
+            "space": "lch"
+          }
+        }
+      }
+    },
+    "moderate": {
+      "value": "{shadow.base}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "alpha",
+            "value": ".6",
+            "space": "lch"
+          }
+        }
+      }
+    },
+    "strong": {
+      "value": "{shadow.base}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "alpha",
+            "value": ".9",
+            "space": "lch"
+          }
+        }
+      }
+    },
+    "intense": {
+      "value": "{shadow.base}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "alpha",
+            "value": ".8",
+            "space": "lch"
+          }
+        }
+      }
+    },
+    "base": {
+      "value": "{colors.mono.60}",
+      "type": "color"
+    }
+  }
+}

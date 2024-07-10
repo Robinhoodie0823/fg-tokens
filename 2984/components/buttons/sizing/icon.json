@@ -1,0 +1,46 @@
+{
+  "icon": {
+    "md": {
+      "icon-small": {
+        "value": "{space.space-150}",
+        "type": "spacing"
+      },
+      "icon-medium": {
+        "value": "{space.space-100}",
+        "type": "spacing"
+      },
+      "icon-large": {
+        "value": "{space.space-50}",
+        "type": "spacing"
+      }
+    },
+    "sm": {
+      "icon-small": {
+        "value": "{space.space-100}",
+        "type": "spacing"
+      },
+      "icon-large": {
+        "value": "{space.space-50}",
+        "type": "spacing"
+      }
+    },
+    "xs": {
+      "icon-small": {
+        "value": "{space.space-50}",
+        "type": "spacing"
+      }
+    },
+    "xl": {
+      "icon-medium": {
+        "value": "{space.space-250}",
+        "type": "spacing"
+      }
+    },
+    "lg": {
+      "icon-medium": {
+        "value": "{space.space-150}",
+        "type": "spacing"
+      }
+    }
+  }
+}

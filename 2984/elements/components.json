@@ -1,0 +1,275 @@
+{
+  "page": {
+    "default": {
+      "value": "{background.no-interactive.secondary}",
+      "type": "color"
+    },
+    "landings": {
+      "value": "{background.no-interactive.primary}",
+      "type": "color"
+    },
+    "containers": {
+      "background": {
+        "on-default": {
+          "default": {
+            "value": "{background.no-interactive.primary}",
+            "type": "color",
+            "description": "Da usare di default sul colore \"default\" della pagina"
+          },
+          "high-emphasis": {
+            "value": "{background.no-interactive.accent}",
+            "type": "color",
+            "description": "Da usare quando vogliamo isolare un container all'interno di un container default"
+          }
+        },
+        "on-landing": {
+          "default": {
+            "value": "{background.no-interactive.secondary}",
+            "type": "color"
+          },
+          "high-emphasis": {
+            "value": "{background.no-interactive.primary}",
+            "type": "color"
+          }
+        }
+      },
+      "border": {
+        "on-default": {
+          "default": {
+            "value": "{border.no-interactive.tertiary}",
+            "type": "color",
+            "description": "Da usare su tutti i container di standard"
+          },
+          "accent": {
+            "value": "{border.no-interactive.primary}",
+            "type": "color",
+            "description": "Da usare per evidenziare i container quando sono specificatamente da evidenziare. Non usare se il colore di bg del container è già high-emphasis"
+          }
+        }
+      }
+    },
+    "standard-container": {
+      "value": {
+        "fill": "{page.containers.background.on-default.default}",
+        "borderColor": "{page.containers.border.on-default.default}",
+        "borderRadius": "{radius.edge}"
+      },
+      "type": "composition",
+      "description": "Standard container style nelle pagine"
+    }
+  },
+  "input": {
+    "background": {
+      "default": {
+        "value": "{background.interactive.tertiary.idle.low-emphasis}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{background.interactive.tertiary.hover.low-emphasis}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{background.interactive.tertiary.pressed.low-emphasis}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{background.interactive.tertiary.idle.low-emphasis}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{background.interactive.tertiary.disabled.low-emphasis}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{border.interactive.tertiary.idle.low-emphasis}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{border.interactive.tertiary.focus}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{border.interactive.tertiary.hover.low-emphasis}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{border.interactive.tertiary.pressed.low-emphasis}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{border.interactive.tertiary.disabled.low-emphasis}",
+        "type": "color"
+      },
+      "success": {
+        "value": "{border.no-interactive.success}",
+        "type": "color"
+      }
+    },
+    "label": {
+      "default": {
+        "value": "{text.no-interactive.primary}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{text.no-interactive.error.default}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{text.no-interactive.tertiary}",
+        "type": "color"
+      },
+      "success": {
+        "value": "{text.no-interactive.success.default}",
+        "type": "color"
+      }
+    },
+    "info": {
+      "default": {
+        "value": "{text.no-interactive.secondary}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{text.no-interactive.error.default}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{text.no-interactive.tertiary}",
+        "type": "color"
+      },
+      "success": {
+        "value": "{text.no-interactive.success.default}",
+        "type": "color"
+      }
+    },
+    "text": {
+      "filled": {
+        "value": "{text.no-interactive.primary}",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "{text.no-interactive.tertiary}",
+        "type": "color"
+      }
+    },
+    "type-indicator": {
+      "value": "{border.interactive.tertiary.focus}",
+      "type": "color"
+    }
+  },
+  "modal": {
+    "body": {
+      "background": {
+        "value": "{background.no-interactive.secondary}",
+        "type": "color"
+      }
+    },
+    "header": {
+      "background": {
+        "value": "{background.no-interactive.primary}",
+        "type": "color"
+      },
+      "title": {
+        "value": "{text.no-interactive.primary}",
+        "type": "color"
+      }
+    },
+    "bottom-area": {
+      "background": {
+        "value": "{background.no-interactive.primary}",
+        "type": "color"
+      }
+    }
+  },
+  "main-header": {
+    "filled": {
+      "background": {
+        "value": "{background.no-interactive.primary}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{border.no-interactive.secondary}",
+        "type": "color"
+      }
+    },
+    "transparent": {
+      "background": {
+        "value": "{background.no-interactive.transparent}",
+        "type": "color"
+      }
+    }
+  },
+  "card": {
+    "background": {
+      "value": "{background.no-interactive.primary}",
+      "type": "color"
+    },
+    "text": {
+      "title": {
+        "value": "{text.no-interactive.primary}",
+        "type": "color"
+      },
+      "zone-quartieri": {
+        "value": "{text.no-interactive.secondary}",
+        "type": "color"
+      },
+      "caratteristiche": {
+        "value": "{text.no-interactive.primary}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{border.interactive.tertiary.idle.low-emphasis}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{border.interactive.tertiary.hover.low-emphasis}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{border.interactive.tertiary.pressed.low-emphasis}",
+        "type": "color"
+      },
+      "focused": {
+        "value": "{border.interactive.tertiary.focus}",
+        "type": "color"
+      }
+    }
+  },
+  "dropdown": {
+    "background": {
+      "default": {
+        "value": "{background.interactive.tertiary.idle.low-emphasis}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{background.interactive.tertiary.hover.low-emphasis}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{background.interactive.tertiary.pressed.low-emphasis}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{border.interactive.tertiary.idle.low-emphasis}",
+        "type": "color"
+      }
+    }
+  },
+  "text": {
+    "paragraph": {
+      "default": {
+        "value": "{text.no-interactive.primary}",
+        "type": "color"
+      },
+      "accent": {
+        "value": "{text.no-interactive.accent}",
+        "type": "color"
+      }
+    }
+  }
+}
