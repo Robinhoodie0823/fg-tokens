@@ -1,11 +1,5 @@
 {
   "square": {
-    "border": {
-      "radius": {
-        "value": "{radius.edge}",
-        "type": "borderRadius"
-      }
-    },
     "xl": {
       "general": {
         "icon-loader-size": {
