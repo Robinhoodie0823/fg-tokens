@@ -1,10 +1,6 @@
 {
   "button": {
     "background": {
-      "default": {
-        "value": "{background.interactive.tertiary.idle.transparent}",
-        "type": "color"
-      },
       "hover": {
         "value": "{background.interactive.tertiary.hover.transparent}",
         "type": "color"
